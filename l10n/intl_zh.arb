@@ -1,5 +1,6 @@
 {
   "appName": "宇宙信号",
+  "authorName": "DuongN艺术家工作室",
   "dataLoading": "加载数据中...",
   "dataEmpty": "没有数据！",
   "errorUnknown": "未知错误！",
@@ -10,7 +11,7 @@
   "buttonShare": "分享",
   "buttonRestart": "重新开始",
   "buttonClose": "关闭",
-  "hintScratch": "刮开图片寻找你的答案......",
+  "hintScratch": "划开方块来寻找你的答案......",
   "planPremium": "优质的",
   "planUnlimited": "无限",
   "planFreeium": "您可以通过以下方式获取更多信号",
@@ -55,20 +56,20 @@
   "onboarding": "入职",
   "splashQoute": "没有什么是随机的。",
   "onboarding0": "一个游戏，一个预言，或者来自宇宙的信息",
-  "onboarding1": "无论你如何看待这本书，在提问之前你都应该有信心",
+  "onboarding1": "无论您如何看待这个应用程序，在提出问题之前都应该有信心",
   "onboarding2": "只有当你真正相信或想要相信时，你才应该寻找答案",
   "onboarding3": "如果您想知道自己的选择，如果您优柔寡断，如果您不知道下一步该做什么，请提出问题。",
   "onboarding4": "让众神为你做决定",
   "guideline": "指南",
-  "guideline0": "将手放在书的封面上",
+  "guideline0": "按开始按钮",
   "guideline1": "完全专注于您想问的问题",
-  "guideline2": "提出问题（大声说出来或在脑海中想象问题），用手沿着书页的边缘滑动",
-  "guideline3": "当你的直觉告诉你时机成熟时，打开这本书，你就会得到答案",
+  "guideline2": "提出问题（大声说出来或在脑海中想象问题）",
+  "guideline3": "当你的直觉告诉你时机成熟时，刮擦方块，你就会得到答案",
   "guideline4": "对其他问题重复此过程",
   "notice": "注意",
   "notice0": "提问的方式和注意力的程度将决定信息的准确性",
   "notice1": "问题应该以选项的形式具体表述",
-  "notice2": "您应该用惯用手打开并连接这本书",
+  "notice2": "您应该用惯用手触摸并刮擦正方形",
   "notice3": "如果您需要更多说明，请再次提出问题并重复步骤",
   "emailSubject": "关于 {appName} 的反馈",
   "@emailSubject": {
@@ -78,10 +79,16 @@
       }
     }
   },
-  "emailBody": "版本是 {appVersion}",
+  "emailBody": "版本是 {appVersion}设备型号是 {deviceModel}系统版本是 {systemVersion}",
   "@emailBody": {
     "placeholders": {
       "appVersion": {
+        "type": "String"
+      },
+      "deviceModel": {
+        "type": "String"
+      },
+      "systemVersion": {
         "type": "String"
       }
     }

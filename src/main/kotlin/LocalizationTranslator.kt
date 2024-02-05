@@ -1,4 +1,3 @@
-import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken
 import okhttp3.OkHttpClient
@@ -13,8 +12,7 @@ object LocalizationTranslator {
         val request = Request.Builder().url(url).build()
         OkHttpClient().newCall(request).execute().use { response ->
             val output = response.body?.string() ?: ""
-            return output.split(",").first().replace("[", "")
-                .replace("\"", "").replace("\\u200b", "")
+            return output.split(",").first().replace("[", "").replace("\"", "").replace("\\u200b", "")
         }
     }
 }
@@ -22,9 +20,9 @@ object LocalizationTranslator {
 fun main() {
     val gson = GsonBuilder().setPrettyPrinting().create()
     val baseLanguage = "en"
-    val targetLanguages = listOf("vi","zh", "ja", "ko")
+    val targetLanguages = listOf("vi", "zh", "ja", "ko")
     val baseJson = Files.readString(Path("l10n/intl_$baseLanguage.arb"))
-    val typeToken = object: TypeToken<Map<String, Any>>(){}.type
+    val typeToken = object : TypeToken<Map<String, Any>>() {}.type
     val baseTree = gson.fromJson<Map<String, Any>>(baseJson, typeToken)
 
     targetLanguages.forEach { targetLanguage ->

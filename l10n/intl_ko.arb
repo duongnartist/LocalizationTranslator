@@ -1,5 +1,6 @@
 {
   "appName": "우주 신호",
+  "authorName": "DuongN아티스트 스튜디오",
   "dataLoading": "데이터 로드 중...",
   "dataEmpty": "데이터가 없습니다!",
   "errorUnknown": "알수없는 오류!",
@@ -10,7 +11,7 @@
   "buttonShare": "공유하다",
   "buttonRestart": "재시작",
   "buttonClose": "닫다",
-  "hintScratch": "이미지를 긁어 답을 찾으세요...",
+  "hintScratch": "답을 찾으려면 사각형을 긁으세요...",
   "planPremium": "프리미엄",
   "planUnlimited": "제한 없는",
   "planFreeium": "다음을 통해 더 많은 신호를 얻을 수 있습니다.",
@@ -55,20 +56,20 @@
   "onboarding": "온보딩",
   "splashQoute": "무작위는 없습니다. ",
   "onboarding0": "게임",
-  "onboarding1": "이 책을 어떻게 생각하든 질문하기 전에 믿음을 가져야 합니다.",
+  "onboarding1": "이 앱을 어떻게 생각하든",
   "onboarding2": "그리고 정말로 믿거나 믿고 싶을 때만 답을 찾아야 합니다.",
   "onboarding3": "선택할 수 있는 사항이 궁금하거나 우유부단하거나 다음에 무엇을 해야 할지 모르겠다면 질문을 하십시오.",
   "onboarding4": "그리고 신들이 당신을 위해 결정하게 하세요",
   "guideline": "지침",
-  "guideline0": "책 표지에 손을 올려보세요.",
+  "guideline0": "시작 버튼을 누르세요",
   "guideline1": "질문하고 싶은 내용에 전적으로 집중하세요.",
-  "guideline2": "책의 페이지 가장자리를 손으로 쓰다듬으며 질문을 하세요(큰 소리로 말하거나 머리 속으로 질문을 시각화하세요).",
-  "guideline3": "직감이 때가 왔다고 말할 때 책을 펼치면 답을 얻을 수 있습니다",
+  "guideline2": "질문하기(큰 소리로 말하거나 머리 속에 질문을 시각화하세요)",
+  "guideline3": "직관이 때가 왔다고 말할 때 사각형을 긁으면 답을 얻을 수 있습니다.",
   "guideline4": "다른 질문에 대해서도 절차를 반복하세요.",
   "notice": "알아채다",
   "notice0": "질문하는 방식과 집중력에 따라 메시지의 정확성이 결정됩니다.",
   "notice1": "질문은 옵션 형식으로 구체적으로 표현되어야 합니다.",
-  "notice2": "책을 펴고 연결하려면 주로 사용하는 손을 사용해야 합니다.",
+  "notice2": "사각형을 만지고 긁을 때는 주로 사용하는 손을 사용해야 합니다.",
   "notice3": "더 많은 안내를 원하시면 다시 질문하고 단계를 반복하세요.",
   "emailSubject": "{appName}에 대한 의견",
   "@emailSubject": {
@@ -78,10 +79,16 @@
       }
     }
   },
-  "emailBody": "버전은 {appVersion}입니다.",
+  "emailBody": "버전은 {appVersion}입니다. 기기 모델은 {deviceModel}입니다. 시스템 버전은 {systemVersion}입니다.",
   "@emailBody": {
     "placeholders": {
       "appVersion": {
+        "type": "String"
+      },
+      "deviceModel": {
+        "type": "String"
+      },
+      "systemVersion": {
         "type": "String"
       }
     }

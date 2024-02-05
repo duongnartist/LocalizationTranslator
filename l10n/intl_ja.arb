@@ -1,5 +1,6 @@
 {
   "appName": "コズミックシグナル",
+  "authorName": "DuongNアーティスト スタジオ",
   "dataLoading": "データのロード...",
   "dataEmpty": "データが存在しません！",
   "errorUnknown": "不明なエラー！",
@@ -10,7 +11,7 @@
   "buttonShare": "共有",
   "buttonRestart": "再起動",
   "buttonClose": "近い",
-  "hintScratch": "画像をスクラッチして答えを見つけてください...",
+  "hintScratch": "正方形をスクラッチして答えを見つけてください...",
   "planPremium": "プレミアム",
   "planUnlimited": "無制限",
   "planFreeium": "より多くの信号を取得するには、",
@@ -55,20 +56,20 @@
   "onboarding": "オンボーディング",
   "splashQoute": "何もランダムではありません。",
   "onboarding0": "ゲーム、予言、宇宙からのメッセージ",
-  "onboarding1": "この本をどう考えても、質問する前に信仰を持つべきです",
+  "onboarding1": "このアプリをどう考えても、質問する前に信念を持つべきです",
   "onboarding2": "そして、本当に信じているとき、または信じたいときだけ、答えを探すべきです",
   "onboarding3": "選択肢について迷っている場合、優柔不断な場合、次に何をすべきかわからない場合は、質問してください。",
   "onboarding4": "そして神に決めてもらいましょう",
   "guideline": "ガイドライン",
-  "guideline0": "本の表紙に手を置きます",
+  "guideline0": "スタートボタンを押してください",
   "guideline1": "聞きたいことに徹底的に集中する",
-  "guideline2": "本のページの端に沿って手を動かし、質問します（声に出して言うか、頭の中で質問を思い浮かべてください）。",
-  "guideline3": "直感が適切な時期だと感じたら、本を開いてください。そうすれば答えが得られます。",
+  "guideline2": "質問する（声に出して言うか、頭の中で質問を思い浮かべてください）",
+  "guideline3": "直感が適切な時期を告げたら、四角を引っ掻けば答えが得られます。",
   "guideline4": "他の質問についても手順を繰り返します",
   "notice": "知らせ",
   "notice0": "質問の仕方と集中力のレベルがメッセージの正確さを左右します",
   "notice1": "質問は選択肢の形式で具体的に表現する必要があります",
-  "notice2": "本を開いて接続するには利き手を使用する必要があります",
+  "notice2": "利き手で四角に触れたり引っかいたりする必要があります",
   "notice3": "さらに詳しい手順が必要な場合は、もう一度質問して手順を繰り返してください",
   "emailSubject": "{appName} に関するフィードバック",
   "@emailSubject": {
@@ -78,10 +79,16 @@
       }
     }
   },
-  "emailBody": "バージョンは {appVersion} です",
+  "emailBody": "バージョンは {appVersion} デバイス モデルは {deviceModel} システム バージョンは {systemVersion}",
   "@emailBody": {
     "placeholders": {
       "appVersion": {
+        "type": "String"
+      },
+      "deviceModel": {
+        "type": "String"
+      },
+      "systemVersion": {
         "type": "String"
       }
     }

@@ -1,5 +1,6 @@
 {
   "appName": "TÍN HIỆU VŨ TRỤ",
+  "authorName": "DươngNArtist Studio",
   "dataLoading": "Đang tải dữ liệu...",
   "dataEmpty": "Không có dữ liệu!",
   "errorUnknown": "Lỗi không rõ!",
@@ -10,7 +11,7 @@
   "buttonShare": "Chia sẻ",
   "buttonRestart": "Khởi động lại",
   "buttonClose": "Đóng",
-  "hintScratch": "Hãy cào hình ảnh để tìm câu trả lời...",
+  "hintScratch": "Hãy cào vào hình vuông để tìm câu trả lời...",
   "planPremium": "Phần thưởng",
   "planUnlimited": "Vô hạn",
   "planFreeium": "Bạn có thể nhận được nhiều tín hiệu hơn bằng cách",
@@ -55,12 +56,12 @@
   "onboarding": "Giới thiệu",
   "splashQoute": "Không có gì là ngẫu nhiên. ",
   "onboarding0": "Một trò chơi",
-  "onboarding1": "Dù bạn coi cuốn sách này là gì",
+  "onboarding1": "Dù bạn coi ứng dụng này là gì",
   "onboarding2": "Và bạn chỉ nên tìm kiếm câu trả lời khi bạn thực sự tin tưởng hoặc muốn tin tưởng",
   "onboarding3": "Nếu bạn đang phân vân về các lựa chọn của mình",
   "onboarding4": "Và hãy để các vị thần quyết định cho bạn",
   "guideline": "Hướng dẫn",
-  "guideline0": "Đặt tay lên bìa sách",
+  "guideline0": "Nhấn nút bắt đầu",
   "guideline1": "Tập trung hoàn toàn vào điều bạn muốn hỏi",
   "guideline2": "Đặt câu hỏi (nói to hoặc hình dung câu hỏi trong đầu)",
   "guideline3": "Khi trực giác mách bảo bạn đã đến lúc",
@@ -68,7 +69,7 @@
   "notice": "Để ý",
   "notice0": "Cách đặt câu hỏi và mức độ tập trung sẽ quyết định tính chính xác của thông điệp",
   "notice1": "Câu hỏi phải được diễn đạt cụ thể dưới dạng các lựa chọn",
-  "notice2": "Bạn nên sử dụng tay thuận để mở và kết nối với cuốn sách",
+  "notice2": "Bạn nên dùng tay thuận để chạm và cào hình vuông",
   "notice3": "Nếu bạn muốn biết thêm hướng dẫn",
   "emailSubject": "Phản hồi về {appName}",
   "@emailSubject": {
@@ -78,10 +79,16 @@
       }
     }
   },
-  "emailBody": "Phiên bản là {appVersion}",
+  "emailBody": "Phiên bản là {appVersion}Mẫu thiết bị là {deviceModel}Phiên bản hệ thống là {systemVersion}",
   "@emailBody": {
     "placeholders": {
       "appVersion": {
+        "type": "String"
+      },
+      "deviceModel": {
+        "type": "String"
+      },
+      "systemVersion": {
         "type": "String"
       }
     }

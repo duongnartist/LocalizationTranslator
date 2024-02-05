@@ -1,5 +1,6 @@
 {
   "appName": "COSMIC SIGNAL",
+  "authorName": "DuongNArtist Studio",
   "dataLoading": "Loading data...",
   "dataEmpty": "There is no data!",
   "errorUnknown": "Unknown Error!",
@@ -10,7 +11,7 @@
   "buttonShare": "Share",
   "buttonRestart": "Restart",
   "buttonClose": "Close",
-  "hintScratch": "Scratch the image to find your answer...",
+  "hintScratch": "Scratch the square to find your answer...",
   "planPremium": "Premium",
   "planUnlimited": "Unlimited",
   "planFreeium": "You can get more signals by",
@@ -55,20 +56,20 @@
   "onboarding": "Onboarding",
   "splashQoute": "Nothing is random. Everything is natural.",
   "onboarding0": "A game, a prophecy, or a message from the universe",
-  "onboarding1": "Whatever you consider this book, you should have faith before asking questions",
+  "onboarding1": "Whatever you consider this app, you should have faith before asking questions",
   "onboarding2": "And you should only look for answers, when you really believe or want to believe",
   "onboarding3": "If you\"re wondering about your options, if you\"re indecisive, if you don\"t know what to do next, ask a question.",
   "onboarding4": "And let the gods decide for you",
   "guideline": "Guideline",
-  "guideline0": "Place your hand on the cover of the book",
+  "guideline0": "Press the start button",
   "guideline1": "Fully concentrate on what you want to ask",
-  "guideline2": "Ask a question (say it out loud or visualize the question in your head), running your hand along the edge of the book\"s pages",
-  "guideline3": "When your intuition tells you the time is right, open the book and you will have the answer",
+  "guideline2": "Ask a question (say it out loud or visualize the question in your head)",
+  "guideline3": "When your intuition tells you the time is right, scratch the square and you will have the answer",
   "guideline4": "Repeat procedure for other questions",
   "notice": "Notice",
   "notice0": "The way the question is asked and the level of concentration will determine the accuracy of the message",
   "notice1": "The question should be specifically worded, in the form of options",
-  "notice2": "You should use your dominant hand to open and connect with the book",
+  "notice2": "You should use your dominant hand to touch and scratch the square",
   "notice3": "If you want more instructions, ask the question again and repeat the steps",
   "emailSubject": "Feedback about {appName}",
   "@emailSubject": {
@@ -78,10 +79,16 @@
       }
     }
   },
-  "emailBody": "Version is {appVersion}",
+  "emailBody": "Version is {appVersion}\nDevice Model is {deviceModel}\nSystem Version is {systemVersion}",
   "@emailBody": {
     "placeholders": {
       "appVersion": {
+        "type": "String"
+      },
+      "deviceModel": {
+        "type": "String"
+      },
+      "systemVersion": {
         "type": "String"
       }
     }
